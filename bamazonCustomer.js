@@ -98,7 +98,7 @@ var order = function () {
 }
 
 function updateInventory() {
-    console.log("Updating all Rocky Road quantities...\n");
+    //console.log("Updating all Rocky Road quantities...\n");
     var query = connection.query(
       "UPDATE products SET ? WHERE ?",
       [
